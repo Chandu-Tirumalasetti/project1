@@ -1,0 +1,648 @@
+
+/* Nav Bar */
+header{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    font-size: 20px;
+    width: 100%;
+    height: 10vh;
+    position:fixed;
+    top: 0;
+    z-index: 20;
+    background-color: white;
+    color: black;
+    padding-top: 20px;
+   }
+.surya1{
+    font-size:2em;
+    color: chartreuse;
+    text-shadow: 4px 0px 1px black;
+    }                 
+  a{
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    
+   } 
+   /* part1 */
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(Halo-Halo-Recipe.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+    
+   } 
+.part1a{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    text-align: center;
+   } 
+.part1b{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:50px;
+    color: yellow;
+    margin-bottom: 10px;
+   } 
+.part1c{
+margin-left:50% ;
+    width: 50px;
+    height: 50px;
+    animation:backInDown;
+    animation-duration: 2s;
+   }
+.part1d{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 100px;
+    animation: backInLeft;
+    animation-duration: 2s;
+   }                    
+.part1e{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 100px;
+    animation: backInRight;
+    animation-duration: 2s;
+   }                    
+ /* part2 */
+.part2a{
+    margin-top: 10%;
+    font-size: 35px;
+    text-align: center;
+   }
+.part2b{
+    font-size: 20px;
+    text-align: center;
+    color: grey;
+   }
+.container2{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 5%;
+    margin-left:10%;
+   }
+.part2c{
+    width: 70%;
+    height: 70vh;
+    border: 0px solid;
+    border-radius: 10px;
+   }
+.part2c1{
+     width: 70%;
+     height: 70vh;
+     border: 0px solid;
+     border-radius: 10px;
+   }
+.part2c2{
+     width: 70%;
+     height: 70vh;
+     border: 0px solid;
+     border-radius: 10px;
+   }
+.ab{
+    width: 100%;
+    height: 40vh;
+    border-radius: 50%;
+}  
+article:hover .part2c{
+     animation: backInLeft;
+     animation-duration: 2s;
+      }              
+article:hover .part2c1{
+     animation: backInUp;
+     animation-duration: 2s;
+      }              
+article:hover .part2c2{
+       animation: backInRight;
+       animation-duration: 2s;
+      }              
+
+.part2d{
+    margin: 30px 0px;
+    text-align:center;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+.part2e{
+    text-align:center;
+    font-size: 20px;
+    color: grey;
+   } 
+
+  /* Part3 */
+.container3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 10vh;
+   }
+.part3b{
+    padding: 48% 25%;
+   }
+.container3:hover .part3a{
+                  animation: backInLeft;
+                  animation-duration: 2s;             
+                 }  
+.container4{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+   }  
+.container4:hover .part3a{
+                  animation: backInRight;
+                  animation-duration: 2s;
+                 }  
+                 .part2a{
+    margin-top: 80px;
+    font-size: 35px;
+    text-align: center;
+   }
+
+   /* Part 4 */
+.part4a{
+    margin-top: 50px;
+    font-size: 35px;
+    text-align: center;
+   }       
+.part4b{
+    font-size: 20px;
+    text-align: center;
+    color: grey;
+   }
+.container5{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    gap:0px 70px;
+    margin: 2% 7%;
+   }
+.part4c{
+    width: 100%;
+    height: 80vh;
+    border: 0px solid;
+    border-radius: 10px;
+   }
+.part4c1{
+     width: 100%;
+     height: 80vh;
+     border: 0px solid;
+     border-radius: 10px;
+   }
+.part4c2{
+     width: 100%;
+     height: 80vh;
+     border: 0px solid;
+     border-radius: 10px;
+   }                                                        
+.part4c3{
+     width: 100%;
+     height: 80vh;
+     border: 0px solid;
+     border-radius: 10px;
+   } 
+.part4d{
+    margin: 5% 0px;
+    text-align:center;
+    font-size: 30px;
+    color: grey;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+.img1{
+    width: 100%;
+    height: 50vh;
+    border-radius: 10px;
+   }     
+.part4e{
+    text-align:center;
+    font-size: 20px;
+    color: rgb(82, 68, 68);
+   }
+.part4f{
+    text-align: center;
+    font-size: 15px;
+   } 
+    /*PART 5  */
+.container6{
+    width: 100%;
+    height: 100vh;
+    background-image: url(biryani-recipes1.jpg);
+    background-repeat: no-repeat; 
+    background-size:100% 100vh;
+    position: relative;
+    }
+.container7{
+    width: 100%;
+    height: 150vh;
+    background-image: url(biryani-recipes2.jpg);
+    background-repeat: no-repeat; 
+    background-size:100% 150vh;
+    position: relative;
+    }
+/* .img2{
+     width: 100%;
+     height: 100vh;
+    }                                                                                  
+.img3{
+     width: 100%;
+     height: 150vh;
+     position: relative;
+    } */
+.part5a{
+     width: 80%;
+     height: 150vh;
+     background: rgba( 255, 255, 255, 0.6 );
+     /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+     backdrop-filter: blur( 0px );
+     -webkit-backdrop-filter: blur( 0px );
+     border-radius: 10px;
+     border: 0px solid rgba( 255, 255, 255, 0.18 );
+     position: absolute;
+     top: 40%;
+     left: 10%;
+     z-index:1
+    }
+.part5b{
+     font-size: 50px;
+     margin-top: 80px;
+     text-align: center;
+     color: rgb(11, 99, 231);
+    } 
+.part5c{
+     font-size: 20px;
+     text-align: center;
+     margin-bottom: 50px;
+     color: rgb(13, 180, 49);
+     }
+     /* boxes */
+.part5d{
+      display: grid;
+      grid-template-columns:45% 45%;
+     } 
+.part5e{
+     width:80%;
+     height: 70vh;                                                                                                                      
+     border: 0px solid;
+     margin-left: 20%;
+     }
+.part5f{
+      display: flex;
+      justify-content: space-between;
+      font-size: 20px;
+      margin-top: 5%;
+      color: white;
+     }
+.btn1{
+      width: 10%;
+      height: 3vh;
+      border: 1px solid;
+      border-radius: 30%;
+      text-align: center;
+      padding: 2%;
+      margin-top: 5%;
+      margin-left: 45%;
+     }
+.btn1:hover{
+      background-color: orangered;
+      border: 0px solid;
+     }
+     /*PART 6 */
+.part6a{
+      margin-top: 10%;
+      font-size: 45px;
+      text-align: center;
+     }
+.part6b{
+      font-size: 20px;
+      text-align: center;
+      color: grey;
+     }
+.img4{
+      width: 10%;
+      height: 20vh;
+      border-radius: 50%;
+      margin: 3% 45%;
+     }
+.part6c{
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 20px;
+      text-align: center;
+     } 
+.part6d{
+      text-align: center;
+      margin-top: 1%;
+      font-size: 25px;
+     }
+
+     /* PART 7 */
+.container8{
+      width: 100%;
+      height: 100vh;
+      margin-top: 10%;
+      background-image: url(https://insanelygoodrecipes.com/wp-content/uploads/2021/05/Cherry-Cheesecake-with-Berry-Sauce.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100vh;
+      position: relative;
+     }
+.part7a{
+     width: 80%;
+     height: 80vh;
+     background: rgba( 255, 255, 255, 0.6 );
+     /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+     backdrop-filter: blur( 0px );
+     -webkit-backdrop-filter: blur( 0px );
+     border-radius: 10px;
+     border: 0px solid rgba( 255, 255, 255, 0.18 );
+     position: absolute;
+     top: 10%;
+     left: 10%;
+    }
+.part7b{
+      margin-top: 5%;
+      font-size: 45px;
+      text-align: center;
+     }
+.part7c{
+      font-size: 20px;
+      text-align: center;
+      color: grey;
+     }
+.input1{
+      width: 30%;
+      padding: 1.5%;
+      border: none;
+      margin-top: 5%;
+      margin-left: 8%;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     } 
+.input2{
+      width: 20%;
+      padding: 1.5%;
+      border: none;
+      margin-top: 5%;
+      margin-left: 8%;
+     }
+.btn2{
+      width: 10%;
+      height: 6vh;
+      padding: 1.2%;
+      background-color: white;
+      border: none;
+      margin: 3% 50%;
+     }    
+.container8:hover .part7a{
+                animation: backInUp;
+                animation-duration: 2s;
+               }
+               
+   /*PART 8  */
+.container9{
+      display: grid;
+      grid-template-columns: 50% 50%;
+     }
+.part8a{
+      text-align: center;
+      background-color: whitesmoke;
+      width: 100%;
+      height: 100vh;
+     }
+.part8b{
+      width: 50%;
+      height: 10vh;
+      font-size: 1.1em;
+      background-color: white;
+      display: flex;
+      justify-content: space-evenly;
+      margin: 2% auto;
+     }
+     /* PART 9 */
+footer{
+      width: 100%;
+      height: 10vh;
+      background-color: black;
+      color: White;
+      font-size: 2em;
+      padding-top: 3%;
+      display: flex;
+      justify-content: space-around;
+     }
+.part9a{
+      color: yellow;
+     }
+.part9b{
+      padding: 0% 2%;
+     }
+     
+@media only screen and (width<450px)
+/* nav Bar */
+{
+  header{display: none;}
+  .header2{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start-end;
+    font-size: 20px;
+    width: 100%;
+    height: 8vh;
+    position:fixed;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+    color: black;
+    padding-top: 20px;
+   }
+   .surya2{
+    font-size:1.1em;
+    color: chartreuse;
+    text-shadow: 2px 0px 1px black;
+    }        
+.dropdown{
+    position: relative;
+    display: inline-block;
+    }
+.dropdown-content{
+  position: absolute;
+  display: none;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+     }
+.dropdown-content a{
+  color: black;
+  font-size: 10px;
+  text-decoration: none;
+  padding: 12px 16px;
+  display: block;
+  }
+.dropdown-content a:hover{
+  background-color: #f1f1f1;
+  }
+.dropdown:hover .dropdown-content{
+  display: block;
+  }
+.dropdown:hover .dropbtn{
+  background-color: peru;
+  }
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+         } 
+         /* part 1 */
+ .container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(Halo-Halo-Recipe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+       } 
+.part1a{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    text-align: center;
+   }
+   .part1d{
+           font-size: 50px;
+          }
+   .part1e{
+           font-size: 50px;
+   }       
+   /* part 2 */
+   .container2{
+    display: grid;
+    grid-template-columns:auto;
+    margin-top: 15%;
+    margin-left:10%;
+   }
+   .part2c{
+    width: 100%;
+    height: 80vh;
+    border: 0px solid;
+    border-radius: 10px;
+   }
+.part2c1{
+     width: 100%;
+     height: 80vh;
+     border: 0px solid;
+     border-radius: 10px;
+   }
+.part2c2{
+     width: 100%;
+     height: 80vh;
+     border: 0px solid;
+     border-radius: 10px;
+   }
+.ab{
+    width: 100%;
+    height: 40vh;
+    border-radius: 50%;
+   }
+   /* part 3 */
+   .container3{
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 10vh;
+   }
+   .part3b{padding: 0% 0%;}
+   .container4{
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: auto;
+   }
+   /* part 4 */
+   .container5{
+    display: grid;
+    grid-template-columns: auto;
+    gap:0px 70px;
+    margin: 2% 7%;
+   }
+   .part4d{
+    margin: 0% 0px;
+   }
+   .part4e{
+    text-align:justify;
+   }
+   /* part 5 */
+   .part5b{
+    font-size: 50px;
+    margin-top: 0px;
+    text-align: center;
+    color: rgb(11, 99, 231);
+   } 
+.part5c{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+    color: rgb(13, 180, 49);
+    }
+    .part5f{
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 20px;
+        margin-top: 0%;
+        color: white;
+       }
+.part5a{
+        width: 100%;
+        height: 150vh;
+        background: rgba( 255, 255, 255, 0.6 );
+        /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+        backdrop-filter: blur( 0px );
+        -webkit-backdrop-filter: blur( 0px );
+        border-radius: 10px;
+        border: 0px solid rgba( 255, 255, 255, 0.18 );
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        z-index:1
+       }
+  .btn1{display:none}
+  /* part 6 */
+  .img4{
+    width: 30%;
+    height: 30vh;
+    border-radius: 50%;
+    margin: 3% 35%;
+   }
+   /* part 7 */
+   .part7a{
+    height: 60vh;
+   }
+   .btn2{
+    width: 50%; 
+    margin: 3% 25%;
+   }
+  /* part 8 */
+  .container9{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 2%;
+    margin-top: 5%;
+   }
+   .part8a{
+           height:100vh ;
+   }
+   .part8b{width: 80%;
+           font-size: 1em;
+           margin: 1% auto;}              
+   iframe{height: 100vh;}
+   /* footer */
+   footer{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    color: White;
+    font-size: 1em;
+    padding-top: 20%;
+    display: flex;
+    justify-content: space-around;
+   }
+   .part9b{ display: none;}
+}
